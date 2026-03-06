@@ -14,7 +14,7 @@ Coming soon.....
 ### Test Diagram
 
 ```mermaid
-graph TD
+flowchart TD
     A[Start] --> B(Eat)
     B --> C(Sleep)
     C --> D(Netflix)
