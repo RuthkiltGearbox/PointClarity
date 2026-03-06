@@ -18,6 +18,8 @@ graph TD
     A[Start] --> B(Eat)
     B --> C(Sleep)
     C --> D(Netflix)
-    D --> |loop|B
+    D --> |loop| B
     D --> E[End]
+
 ```
+
