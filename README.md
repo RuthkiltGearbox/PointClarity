@@ -20,6 +20,5 @@ flowchart TD
     C --> D(Netflix)
     D --> |loop| B
     D --> E[End]
-
 ```
 
