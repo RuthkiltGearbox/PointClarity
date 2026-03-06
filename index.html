@@ -18,11 +18,13 @@
   <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
   
   <script>
-    var num = 0;
-
     // Initialize Mermaid diagrams
+    mermaid.initialize({ startOnLoad: true });
+
+    // Render diagrams after the content is loaded
     window.onload = function() {
-      mermaid.initialize({ startOnLoad: true });
+      // Ensure that any Mermaid content is rendered
+      mermaid.init();
     };
 
     window.$docsify = {
@@ -40,4 +42,5 @@
   </script>
 </body>
 </html>
+
 
